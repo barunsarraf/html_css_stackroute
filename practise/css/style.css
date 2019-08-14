@@ -1,0 +1,23 @@
+li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+}
+img{
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+.preview{
+    float: left;
+    width:450px;
+}
+#back{
+    background-color: grey;
+}
+h2{
+    line-height: -10px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
