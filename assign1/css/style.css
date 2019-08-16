@@ -18,7 +18,6 @@ nav ul li{
   }
 #icon{
     float: right;
-    padding: 14px 16px;
     text-decoration: none;
     display: inline-block;
     color: white;
@@ -34,6 +33,18 @@ nav ul li a {
     color: white;
   
 }
+#name
+{
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    
+}
+#name::after{
+    content: " |";
+}
+
   
 nav ul li a:hover {
     background-color: #111;
