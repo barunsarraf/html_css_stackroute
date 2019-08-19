@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    background: black;
+    
+}
+.jumbotron{
+    min-width: 200px;
+    overflow: hidden;
+    margin: 0;
+    background-image: url("../img/cover3.jpg");
+    background-size: cover;
+}
+.navcolor{
+    letter-spacing: 3px;
+    color: white;
+}
+.sideimage{
+    height: 500px;
+    
+}
+.sec_img{
+    width: 18%;
+    min-width: 20px;
+   
+    margin-right: 8px;
+}
+.footer_back{
+    padding: 20px;
+    background: #212121;
+    color: white;
+}
+}
+.footer_img{
+    width: 100%;
+    min-width: 30px;
+}
+.contact{
+    
+    text-align: justify;
+}
+span{
+    font-size: 80px;
+}
+.footgrid li a{
+    
+    text-decoration: none;
+    color: white;
+}
+.footgrid li a:hover{
+    
+    text-decoration: underline;
+    color: white;
+}
+.footgrid li{
+    list-style-type: none;
+}
+
+.mute_center{
+    text-align: center;
+    margin-top: -20px;
+}
+.sec_color{
+    color: white;
+    margin-top: 5px;
+}
+.oop{
+    font-size: 100%;
+}
+.opennow{
+    color: yellow;
+}
+.pos{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
