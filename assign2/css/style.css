@@ -11,6 +11,7 @@ body{
     background-image: url("../img/cover3.jpg");
     background-size: cover;
 }
+
 .navcolor{
     letter-spacing: 3px;
     color: white;
@@ -26,7 +27,6 @@ body{
     margin-right: 8px;
 }
 .footer_back{
-    padding: 20px;
     background: #212121;
     color: white;
 }
