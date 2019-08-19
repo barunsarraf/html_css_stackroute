@@ -13,9 +13,12 @@ nav ul {
     position: fixed;
     width:100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
     z-index: 9999;
 =======
 >>>>>>> bc05cb52d9c8f677e6354c35924f8d3a349b3842
+=======
+>>>>>>> ef1473678efcbfbff95032a0c87a7a9ed32c711f
   }
 nav ul li{
     float: left;; 
@@ -50,6 +53,7 @@ nav ul li a:hover {
     background-image: url("../img/cover.jpg");
     height: 600px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     text-align: center;
   }
 .view{     
@@ -58,6 +62,8 @@ nav ul li a:hover {
     padding:15em;
     text-transform: uppercase;
 =======
+=======
+>>>>>>> ef1473678efcbfbff95032a0c87a7a9ed32c711f
     
    
   }
@@ -68,7 +74,10 @@ nav ul li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+<<<<<<< HEAD
 >>>>>>> bc05cb52d9c8f677e6354c35924f8d3a349b3842
+=======
+>>>>>>> ef1473678efcbfbff95032a0c87a7a9ed32c711f
 }
 h1{
     font-size: 200%;
@@ -99,18 +108,25 @@ footer p{
     width: 100%;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> ef1473678efcbfbff95032a0c87a7a9ed32c711f
 .flex-container{
     display: flex;
     flex-direction: column;
 }
+<<<<<<< HEAD
 >>>>>>> bc05cb52d9c8f677e6354c35924f8d3a349b3842
+=======
+>>>>>>> ef1473678efcbfbff95032a0c87a7a9ed32c711f
 .flex-container img{
     margin-right: 20px;
     width: 18%;
     min-width: 20px;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .flex-container >article> div{
     margin: 0;
@@ -127,11 +143,16 @@ footer p{
 }
 
 =======
+=======
+>>>>>>> ef1473678efcbfbff95032a0c87a7a9ed32c711f
 .flex-container > div{
     margin: 0;
 }
 
+<<<<<<< HEAD
 >>>>>>> bc05cb52d9c8f677e6354c35924f8d3a349b3842
+=======
+>>>>>>> ef1473678efcbfbff95032a0c87a7a9ed32c711f
 .footgrid{
     display: grid;
     grid-template-columns: 30% 25% 25% 20%; 
@@ -157,9 +178,12 @@ footer p{
 span{
     font-size: 80px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 .upper{
     text-transform: uppercase;
 =======
 >>>>>>> bc05cb52d9c8f677e6354c35924f8d3a349b3842
+=======
+>>>>>>> ef1473678efcbfbff95032a0c87a7a9ed32c711f
 }
