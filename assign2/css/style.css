@@ -11,20 +11,18 @@ body{
     background-image: url("../img/cover3.jpg");
     background-size: cover;
 }
-
 .navcolor{
     letter-spacing: 3px;
     color: white;
 }
 .sideimage{
-    height: 500px;
+    height: 400px;
     
 }
 .sec_img{
     width: 18%;
     min-width: 20px;
-   
-    margin-right: 8px;
+    float: left;
 }
 .footer_back{
     background: #212121;
@@ -62,7 +60,7 @@ span{
 }
 .sec_color{
     color: white;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .oop{
     font-size: 100%;
@@ -75,3 +73,4 @@ span{
     width: 100%;
     z-index: 9999;
 }
+
