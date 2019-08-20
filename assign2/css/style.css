@@ -4,25 +4,72 @@ body{
     background: black;
     
 }
-.jumbotron{
-    min-width: 200px;
-    overflow: hidden;
-    margin: 0;
-    background-image: url("../img/cover3.jpg");
+.jumbotron-fluid{ 
     background-size: cover;
+    animation: ch 4s ease-in-out infinite;  
 }
-.navcolor{
-    letter-spacing: 3px;
-    color: white;
+@keyframes ch{
+    0%{
+        background: url("../img/cover1.jpg") ; 
+        background-size: cover;   
+    }
+    50%{
+        background: url("../img/cover2.jpg") ; 
+        background-size: cover;  
+    }
+    100%
+    {
+        background: url("../img/cover3.jpg") ; 
+        background-size: cover; 
+    }
 }
+
+.vertical{
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  width:100%;
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+  margin: 0;
+ line-height: 10px;
+ height: 550px;
+}
+.letterspacing{
+    letter-spacing: 15px;
+}
+
 .sideimage{
-    height: 400px;
     
+    height: 100%;
+    width: 100%;
+    align-self: center;
+    overflow: hidden;
+    background-size: 100% 100%; 
 }
+.sideimage img{
+    height: 100%;
+    width: 100%;
+    transition: transform 0.5s ease-in-out ;
+}
+.sideimage img:hover{
+    height: 100%;
+    width: 100%;
+   transform: scale(1.5);
+}
+
 .sec_img{
     width: 18%;
     min-width: 20px;
     float: left;
+    transition: transform 1s ease-in-out;
+}
+.sec_img:hover{
+    width: 18%;
+    min-width: 20px;
+    float: left;
+    transform:scale(1.5);
 }
 .footer_back{
     background: #212121;
@@ -74,3 +121,15 @@ span{
     z-index: 9999;
 }
 
+.abcd{
+    width: 20px;
+    height: 20px;
+}
+.articlemovingup{
+    animation-delay: 30s;
+  animation: upbro 3s ease-in-out;
+}
+@keyframes upbro{
+    from{opacity: 0;}
+    to{opacity: 1.0;}
+}

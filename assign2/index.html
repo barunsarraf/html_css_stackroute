@@ -33,7 +33,13 @@
 <header>
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark pos">
     <a class="navbar-brand" href="#"><img src="img/computer.svg" width="30" height="30" class="d-inline-block align-top" alt=""> SMART WORLD</a>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+   
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon abcd"></span>
+      </button>
+      
+  
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -54,14 +60,14 @@
   <!-- header ends here -->
   <!-- main satrts here -->
   <main>
-      <div class="container-fluid">
-          <div class="jumbotron jumbotron-fluid">
-            <div class="container text-center navcolor">
-              <h1 class="display-1" style="text-transform: uppercase;">smart world</h1>
-              <p class="lead" style="text-transform: uppercase">beyond the limit</p>
+    <br>
+    <br>
+        <div class="jumbotron jumbotron-fluid vertical">
+            <div class="container-fluid">
+              <h1 class="letterspacing">SMART WORLD</h1> 
+              <p>Beyond the limit</p> 
             </div>
           </div>
-        </div>
   </main> 
   <!-- end of main -->
  <!-- start of 2 sections -->
@@ -69,11 +75,10 @@
   <div class="container-fluid">
     <div class="row">
               
-              <div class="col-sm-6  back">
+              <div class="col-sm-6 col-md-6 col-lg-6">
                 <!-- this is image section -->
-                <section>
-                  <img style="width: 100%;height:100%" class="sideimage" src="img/mobile1.jpg" alt="iphoneX image">
-                  <h6 style="text-align: center;color: aliceblue;">IphoneX</h6>
+                <section class="sideimage">              
+                <img src="img/mobile1.jpg">
                 </section>
                 <!-- end of image section -->
               </div>
@@ -81,52 +86,46 @@
            
            <!-- section 2 with content of article -->
             
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-md-6 col-lg-6" style="align-content: center;">
             <section>
-              <div>
-                  <ul class="list-unstyled back sec_color">
-                    
-                      <li class="media">
-                        
-                            <img class="mr-3 sec_img" src="img/people-1.jpg" alt="Generic placeholder image">
-                            <div class="media-body">
-                              <h3 class="mt-0 mb-1"><b>Tim Cook</b></h3><hr>
-                              Timothy Donald Cook is an American business executive and industrial engineer. Cook is the chief executive officer of Apple Inc., and previously served as the company's chief operating officer under its cofounder Steve Jobs.
-                            </div>
-                          
-                          
-                      </li>
-                    
-                    
-                      <li class="media my-4">
-                          
-                        <img class="mr-3 sec_img" src="img/people-2.jpg" alt="Generic placeholder image">
-                        <div class="media-body">
-                          <h3 class="mt-0 mb-1"><b>Rajeev Suri</b></h3><hr>
-                          Rajeev Suri is an Indian–Singaporean business executive and the CEO of Nokia. Before the current assignment in May 2016, he was the CEO of Nokia Solutions and Networks from 2015 and held various positions in Nokia since 1995.
-                        </div>
-                      
-                      </li>
-                   
-                    
-                      <li class="media">
-                          
-                        <img class="mr-3 sec_img" src="img/person-3.jpg" alt="Generic placeholder image">
-                        <div class="media-body">
-                          <h3 class="mt-0 mb-1"><b>Kim ki Nam</b></h3><hr>
-                          Samsung Electronics Co., Ltd. is a South Korean multinational electronics company headquartered in Suwon, South Korea. 
-                        </div>
-                     
-                      </li>
-                      
-                    </ul>
+              <div style="display: flex;align-items:center;flex-direction: column; color: aliceblue;margin-left: -10px;" class="articlemovingup">                  
+                        <div >
+                          <article>
+                                <img class="mr-3 sec_img" src="img/people-1.jpg" alt="Generic placeholder image">
+                              
+                              <div class="media-body">
+                                <h3 class="mt-0 mb-1"><b>Tim Cook</b></h3><hr>
+                                Timothy Donald Cook is an American business executive and industrial engineer. Cook is the chief executive officer of Apple Inc.
+                                Before the current assignment in May 2016.
+                              </div>
+
+                          </article>
+                          </div>
+                        <br>
+                          <div>
+                            <article>
+                                <img class="mr-3 sec_img" src="img/people-2.jpg" alt="Generic placeholder image">
+                                <div class="media-body">
+                                  <h3 class="mt-0 mb-1"><b>Rajeev Suri</b></h3><hr>
+                                  Rajeev Suri is an Indian–Singaporean business executive and the CEO of Nokia. Before the current assignment in May 2016.
+                                </div>
+                            </article>
+                          </div>
+                    <br>
+                          <div>
+                            <article>
+                                <img class="mr-3 sec_img" src="img/person-3.jpg" alt="Generic placeholder image">
+                                <div class="media-body">
+                                  <h3 class="mt-0 mb-1"><b>Kim ki Nam</b></h3><hr>
+                                  Samsung Electronics Co., Ltd. is a South Korean multinational electronics company headquartered in Suwon, South Korea. 
+                                </div>
+
+                            </article>
+                          </div>
               </div>  
               </section>
               <!-- section 2 ends here -->
         </div>
-        
-       
-             
         </div>
     </div>
   <br>
