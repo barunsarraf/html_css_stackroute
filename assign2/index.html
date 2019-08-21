@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Smart World</title>
-  <meta name="description" content="iot,phones,mobile">
+  <meta name="keyword" content="iot,phones,mobile">
+  <meta name="description" content="smart world gadgets and review">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -13,6 +14,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="img/icon.png">
   <link rel="stylesheet" href="css/style.css">
+
   <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
   <!-- Place favicon.ico in the root directory -->
 
@@ -66,19 +68,38 @@
             <div class="container-fluid">
               <h1 class="letterspacing">SMART WORLD</h1> 
               <p>Beyond the limit</p> 
+              <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#trackmodel">Track</button>
             </div>
           </div>
   </main> 
   <!-- end of main -->
+  <div class="modal fade" id="trackmodel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Tracking Details</h5>
+          </div>
+          <div class="modal-body">
+            <form>
+              <input type="alphnum" class="form-control" placeholder="Enter Tracking ID">
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-dark">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
  <!-- start of 2 sections -->
   <br>
   <div class="container-fluid">
     <div class="row">
               
-              <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="col-sm-6 col-md-6 col-lg-6 pp">
                 <!-- this is image section -->
                 <section class="sideimage">              
-                <img src="img/mobile1.jpg">
+                
                 </section>
                 <!-- end of image section -->
               </div>
@@ -88,13 +109,13 @@
             
         <div class="col-sm-6 col-md-6 col-lg-6" style="align-content: center;">
             <section>
-              <div style="display: flex;align-items:center;flex-direction: column; color: aliceblue;margin-left: -10px;" class="articlemovingup">                  
+              <div style="display: flex;align-items:center;flex-direction: column; color: aliceblue;" class="articlemovingup">                  
                         <div >
                           <article>
                                 <img class="mr-3 sec_img" src="img/people-1.jpg" alt="Generic placeholder image">
                               
                               <div class="media-body">
-                                <h3 class="mt-0 mb-1"><b>Tim Cook</b></h3><hr>
+                                <h3 class="mt-0 mb-1"><b>Tim Cook</b></h3>
                                 Timothy Donald Cook is an American business executive and industrial engineer. Cook is the chief executive officer of Apple Inc.
                                 Before the current assignment in May 2016.
                               </div>
@@ -106,8 +127,8 @@
                             <article>
                                 <img class="mr-3 sec_img" src="img/people-2.jpg" alt="Generic placeholder image">
                                 <div class="media-body">
-                                  <h3 class="mt-0 mb-1"><b>Rajeev Suri</b></h3><hr>
-                                  Rajeev Suri is an Indian–Singaporean business executive and the CEO of Nokia. Before the current assignment in May 2016.
+                                  <h3 class="mt-0 mb-1"><b>Rajeev Suri</b></h3>
+                                  Rajeev Suri is an Indian–Singaporean business executive and the CEO of Nokia. Before the current assignment in May 2016.The smartphone was launched in 19th August 2019. 
                                 </div>
                             </article>
                           </div>
@@ -116,14 +137,15 @@
                             <article>
                                 <img class="mr-3 sec_img" src="img/person-3.jpg" alt="Generic placeholder image">
                                 <div class="media-body">
-                                  <h3 class="mt-0 mb-1"><b>Kim ki Nam</b></h3><hr>
-                                  Samsung Electronics Co., Ltd. is a South Korean multinational electronics company headquartered in Suwon, South Korea. 
+                                  <h3 class="mt-0 mb-1"><b>Kim ki Nam</b></h3>
+                                  Samsung Electronics Co., Ltd. is a South Korean multinational electronics company headquartered in Suwon, South Korea.The smartphone was launched in 12th August 2019. 
                                 </div>
 
                             </article>
                           </div>
               </div>  
               </section>
+            
               <!-- section 2 ends here -->
         </div>
         </div>
@@ -132,7 +154,7 @@
         <div class="card">
             <div class="card-body">
               <h5 class="card-title">Samsung</h5>
-              <p class="card-text">Samsung's latest mobile launch is the Galaxy A10s. The smartphone was launched in 12th August 2019. </p>
+              <p class="card-text">Samsung's latest mobile launch is the Galaxy A10s. The smartphone was launched in 12th August 2019 comes with a 2.40-inch display.</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
           </div>
@@ -154,7 +176,7 @@
       </div>
   <br>
   <!-- footer starts here -->
-  <footer >
+  <footer>
     <div class="container-fluid footer_back">  <!--this container-fluid because we want it to be full width-->
       <br>
       <div class="row">
@@ -170,41 +192,43 @@
         </div>
         <div class="col-sm-3 footgrid">
             <ul>
-                <li><a href="#">NOKIA</a></li>
-                <li><a href="#">SAMSUNG</a></li>
-                <li><a href="#">APPLE</a></li>
-                <li><a href="#">OPPO</a></li> 
+                <li><a href="#">Nokia</a></li>
+                <li><a href="#">Samsung</a></li>
+                <li><a href="#">Apple</a></li>
+                <li><a href="#">Motorola</a></li> 
             </ul>
         </div>
-        <div class="col-sm-3 footgrid">
+        <div class="col-sm-3 footgrid ">
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">REGISTER</a></li>
+                <li><a href="#">Smart Phones</a></li>
+                <li><a href="#">Tablets</a></li>
+                <li><a href="#">Bluetooth/Headphones</a></li>
+                <li><a href="#">Audio Books</a></li> 
         </ul>
         </div>
-        <div class="contact col-sm-3 footgrid">
-            Links:
-            <br>
-                <strong><i class="fa fa-user" aria-hidden="true"></i>
-                    Contact:</strong> Barun Sarraf
-                <p><i class="fa fa-envelope-o" aria-hidden="true"></i>
-                    <strong>Email: </strong><em>barun.sarraf@cgi.com</em><br>
-                <i class="fab fa-github"></i><strong> Github: </strong><em>barunsaraf1</em></p>
+
+        <div class="contact col-sm-3 map">
+            <div class="mapouter""><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=stackroute%20koramangala&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">Pureblack.de - Webseite erstellen</a></div><style>.mapouter{position:relative;text-align:right;height:136px;width:283px;}.gmap_canvas {overflow:hidden;background:none!important;height:136px;width:283px;}</style></div>
+            <!-- map here -->
         </div>
       </div>
       
       <div class="mute_center">
-          <p class="display-8" style="color: grey">Developed by Barun&copy; 2019<br></p>
-          <small class="text-muted">V1.2</small>
+       
+          <a href="https://www.facebook.com"><i class="fab fa-facebook-f fa-2x socicon"></i></a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x socicon"></i></a>
+          <a href="https://www.github.com"><i class="fab fa-github fa-2x socicon"></i></a>
+          <p class="display-8" style="color: grey">Developed by Barun&copy; 2019</p>
+          v1.2
+          
+        
       </div>
+
       
     </div>
       
   </footer>
   <!-- footer ends here -->
-
 
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -213,11 +237,7 @@
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
 </body>
 
 </html>
